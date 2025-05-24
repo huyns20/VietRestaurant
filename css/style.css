@@ -68,7 +68,7 @@ body {
   width: 100%;
   max-width: 400px; /* Giới hạn tối đa để không bị vỡ */
   height: auto;
-  margin-right: 100px; /* Cách lề phải 50px */
+  margin-right: 10%; 
 
 }
 
@@ -117,4 +117,17 @@ body {
 
 .social a {
   text-decoration: none;  /* Bỏ gạch dưới nếu có */
+}
+
+@media screen and (max-width: 768px) {
+  .food-img {
+    position: static;
+    float: none;
+    display: block;
+    margin: 20px auto 0;
+    width: 50%;
+  }
+  .intro {
+    margin-left: 20px;
+  }
 }
